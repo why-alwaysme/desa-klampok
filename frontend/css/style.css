@@ -1,0 +1,120 @@
+.adminbar {
+  background-color: #007b5e;
+}
+
+.adminbar2 {
+  background-color: #0d4dff;
+}
+
+.bg-login {
+  background-color: #007b5e;
+}
+
+.topbar2 {
+  background-color: #0d4dff;
+}
+
+.judul {
+  color: #007b5e;
+}
+
+.btn-login {
+  color: #fff;
+  background-color: #007b5e;
+}
+
+.btn-login:hover {
+  color: #fff;
+  background-color: #00664e;
+}
+
+.banner-air {
+  border-bottom: 5px solid #2bff24;
+  height: 350px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("../assets/images/admin/banner-air.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/images/admin/banner-air.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.banner-air h3 {
+  margin-top: 130px;
+  font-size: 50px;
+  font-family: "Playfair Display", serif;
+  color: #fff;
+}
+
+.card-info-air .label-alamat {
+  color: #000;
+  font-weight: bold;
+}
+
+.card-info-air .label-wa {
+  color: #01644d;
+  font-weight: bold;
+}
+
+.card-info-air .label-harga {
+  color: brown;
+  font-weight: bold;
+}
+
+.card-info-air .label-bca {
+  color: #0d4dff;
+  font-weight: bold;
+}
+
+.card-info-air .label-bni {
+  color: #f78113;
+  font-weight: bold;
+}
+
+.card-info-air .label-mandiri {
+  color: #000ed8;
+  font-weight: bold;
+}
+
+.card-info-air .label-dana {
+  color: #608aff;
+  font-weight: bold;
+}
+
+.card-info-air .label-ovo {
+  color: #510094;
+  font-weight: bold;
+}
+
+.card-info-air .label-gopay {
+  color: #006811;
+  font-weight: bold;
+}
+
+.card-info-air .label-shopee {
+  color: #e66f00;
+  font-weight: bold;
+}
+
+.btn-primary {
+  background-color: #0d4dff;
+  color: #fff;
+}
+
+.tabel-air {
+  border: 2px solid #000;
+}
+
+.tabel-air .thead-air {
+  background-color: #0d4dff;
+  color: #fff;
+}
+
+.tabel-air tbody {
+  background-color: #658eff;
+  color: #fff;
+}
+
+.tabel-berita th,
+.tabel-berita td {
+  border: 1px solid #000;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,847 @@
+html {
+	scroll-behavior: smooth;
+}
+
+.navbar1 {
+	background-color: #007b5e81;
+	border-bottom: 2px solid rgb(255, 255, 255);
+
+	.logo {
+		a {
+			color: #fff;
+			font-size: 24px;
+			font-weight: 600;
+			font-family: "Poppins", sans-serif;
+			text-decoration: none;
+
+			span {
+				color: #06ff2f;
+				text-transform: capitalize;
+			}
+		}
+	}
+
+	ul {
+		li {
+			a {
+				color: #fff;
+				font-size: 18px;
+				font-weight: 500;
+				text-decoration: none;
+
+				&:hover {
+					color: #06ff2f;
+				}
+			}
+		}
+	}
+}
+
+header {
+	padding: 180px 0 110px 0;
+	margin-top: -70px;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+		url("../assets/images/home/home.jpg");
+	background-size: cover;
+	background-position: center;
+	min-height: 800px;
+
+	h1,
+	p {
+		color: #fff;
+	}
+
+	h1 {
+		margin-top: 120px;
+		font-family: "Playfair Display", serif;
+		color: #fff;
+		font-weight: bold;
+		font-size: 50px;
+	}
+
+	p {
+		font-size: 22px;
+	}
+
+	.btn-get-started {
+		background-color: #e66f00;
+		color: #fff;
+
+		&:hover {
+			background-color: #be5d02;
+			color: #fff;
+		}
+	}
+}
+
+.section-dusun {
+	background-color: #007b5e;
+
+	.section-dusun-heading {
+		h2,
+		p {
+			color: #fff;
+		}
+
+		h2 {
+			font-family: "Playfair Display", serif;
+			font-weight: bold;
+			font-size: 40px;
+			border-bottom: 2px dashed #f78113;
+		}
+
+		p {
+			font-style: italic;
+			font-size: 18px;
+			margin-top: 27px;
+			font-family: "Assistant", sans-serif;
+		}
+	}
+
+	.card-dusun {
+		background-color: #84da97;
+		margin-bottom: 5px;
+		border-left: 4px solid #f78113;
+
+		i {
+			color: #006811;
+			font-size: 24px;
+		}
+
+		h5 {
+			font-weight: 600;
+			color: #006811;
+		}
+	}
+
+	.card-peninggalan {
+		img {
+			width: 24rem;
+			height: 17rem;
+			border: 2px solid #f78113;
+			object-fit: cover;
+		}
+	}
+}
+
+.navbar2 {
+	background-color: #007b5e;
+
+	.logo {
+		a {
+			color: #fff;
+			font-size: 24px;
+			font-weight: 600;
+			font-family: "Poppins", sans-serif;
+			text-decoration: none;
+
+			span {
+				color: #06ff2f;
+				text-transform: capitalize;
+			}
+		}
+	}
+}
+
+.section-kkn {
+	h3 {
+		color: #f78113;
+		font-family: "Poppins", sans-serif;
+		border-bottom: 4px solid #007b5e;
+	}
+
+	h2 {
+		font-size: 45px;
+	}
+
+	p {
+		padding-right: 15px;
+		font-weight: 600;
+		font-family: "Assistant", sans-serif;
+	}
+
+	img {
+		border: 2px solid #007b5e;
+	}
+
+	.btn-kkn {
+		background-color: #f78113;
+		color: #fff;
+
+		&:hover {
+			background-color: #e66f00;
+			color: #fff;
+		}
+	}
+}
+
+.section-anggota {
+	h2 {
+		color: #f78113;
+		font-size: 22px;
+		font-family: "poppins", sans-serif;
+		border-bottom: 4px solid #007b5e;
+	}
+
+	.card-anggota {
+		padding-top: 20px;
+		margin-bottom: 25px;
+
+		img {
+			width: 10rem;
+			height: 10rem;
+			object-fit: cover;
+			object-position: center;
+			margin-bottom: 15px;
+		}
+
+		hr {
+			border: 2px dashed;
+			color: #007b5e;
+		}
+
+		p {
+			font-weight: 500;
+		}
+
+		h3 {
+			font-size: 26px;
+			color: #e66f00;
+		}
+
+		.card-footer {
+			background-color: #007b5e;
+
+			h4 {
+				font-size: 20px;
+				color: #fff;
+			}
+		}
+
+		.table-anggota {
+			padding: 10px;
+		}
+	}
+}
+
+.section-pengurus-desa {
+	h2 {
+		color: #f78113;
+		font-size: 22px;
+		font-family: "poppins", sans-serif;
+		border-bottom: 4px solid #007b5e;
+	}
+
+	.struktur-pengurus-desa {
+		.card-struktur-item {
+			border: 1px solid;
+			margin-bottom: 30px;
+			hr {
+				border: 2px dashed;
+				color: #007b5e;
+			}
+
+			.header-ketua {
+				background-color: #007b5e;
+				color: #fff;
+			}
+
+			.header-sekret {
+				background-color: #019e79;
+				color: #fff;
+			}
+
+			.header-sekret-pokja {
+				background-color: #028544;
+				color: #fff;
+			}
+
+			.header-anggota {
+				background-color: #00d1a0;
+				color: #fff;
+			}
+
+			.header-pokja {
+				background-color: #188169;
+				color: #fff;
+			}
+
+			.header-anggota-pokja {
+				background-color: #02e77c;
+				color: #fff;
+			}
+
+			.nama-item {
+				font-size: 18px;
+				font-weight: 700;
+			}
+		}
+	}
+}
+
+.section-dokumentasi {
+	h2 {
+		color: #f78113;
+		font-size: 22px;
+		font-family: "poppins", sans-serif;
+		border-bottom: 4px solid #007b5e;
+	}
+
+	.dokumentasi-item {
+		img {
+			width: 45rem;
+			height: 13rem;
+			object-fit: cover;
+		}
+
+		.item {
+			float: left;
+			margin-bottom: 10px;
+		}
+	}
+}
+
+.btn-beranda {
+	background-color: #f78113;
+	color: #fff;
+
+	&:hover {
+		background-color: #e66f00;
+		color: #fff;
+	}
+}
+
+.section-posyandu-header {
+	min-height: 310px;
+	background: #e4e6eb;
+	margin-top: -68px;
+}
+
+.section-berita-header {
+	min-height: 310px;
+	background: #fff;
+	margin-top: -68px;
+}
+
+.section-posyandu-content {
+	margin-top: -210px;
+	min-height: 100vh;
+
+	.indikator {
+		padding-left: 30px;
+
+		.breadcrumb {
+			background-color: transparent;
+			padding: 0;
+			margin-bottom: 30px;
+
+			a {
+				color: #6e6e6e;
+				font-weight: bold;
+				text-decoration: none;
+			}
+		}
+
+		.breadcrumb-item {
+			&.active {
+				font-weight: bold;
+				color: #006811;
+			}
+		}
+	}
+
+	.card-posyandu {
+		padding: 30px;
+		border-radius: 11px;
+
+		h1 {
+			font-size: 26px;
+			color: #007724;
+		}
+
+		h2 {
+			color: #007724;
+			font-size: 20px;
+		}
+
+		h3 {
+			font-size: 20px;
+		}
+
+		p {
+			font-family: "Assistant", sans-serif;
+			font-size: 18px;
+			font-weight: 400;
+			color: #5e5e5e;
+		}
+
+		.label-posyandu {
+			color: #007724;
+			font-weight: bold;
+		}
+
+		.card-air {
+			.label-air {
+				color: #007b5e;
+				font-weight: bold;
+			}
+
+			.card-header-harga {
+				background-color: #007b5e;
+				color: #fff;
+			}
+
+			.card-header-pesan {
+				background-color: #007b5e;
+				color: #fff;
+			}
+
+			.btn-pesan {
+				background-color: #f78113;
+				color: #fff;
+
+				&:hover {
+					background-color: #e66f00;
+					color: #fff;
+				}
+			}
+
+			.card-harga {
+				td {
+					font-family: "Assistant", sans-serif;
+					color: #007b5e;
+					font-weight: bold;
+					font-size: 18px;
+				}
+
+				.text-right {
+					font-family: "Assistant", sans-serif;
+					color: #9b9b9b;
+					font-size: 18px;
+				}
+			}
+		}
+
+		.card-tagihan {
+			border: 2px dashed #000;
+
+			.card-header {
+				background-color: #4778ff;
+				color: #fff;
+			}
+
+			.card-body {
+				background-color: #9db6fc;
+				font-weight: 500;
+
+				.label-tagihan {
+					color: #011f74;
+					font-weight: bold;
+				}
+
+				.nomor-tagihan {
+					color: #dd6b00;
+					font-weight: 700;
+				}
+
+				.total-tagihan {
+					color: rgb(255, 255, 255);
+					font-weight: 500;
+				}
+
+				.status {
+					color: #0e8121;
+					font-weight: 600;
+				}
+			}
+
+			.card-footer {
+				background-color: #4778ff;
+
+				.btn-bayar {
+					background-color: #f78113;
+					color: #fff;
+
+					&:hover {
+						background-color: #e66f00;
+						color: #fff;
+					}
+				}
+			}
+		}
+	}
+
+	.card-right {
+		border-bottom-left-radius: 0;
+		border-bottom-right-radius: 0;
+
+		.informasi-posyandu {
+			td {
+				font-family: "Assistant", sans-serif;
+				color: #006811;
+				font-weight: bold;
+				font-size: 18px;
+			}
+
+			.text-right {
+				font-family: "Assistant", sans-serif;
+				color: #9b9b9b;
+				font-size: 18px;
+			}
+		}
+	}
+
+	.manfaat {
+		margin-top: 20px;
+
+		h3 {
+			font-size: 18px;
+			color: #006811;
+			margin-bottom: 0;
+		}
+
+		p {
+			margin-bottom: 0;
+		}
+
+		.description {
+			margin-left: 10px;
+			overflow: hidden;
+			float: left;
+		}
+
+		.manfaat-image {
+			width: 45px;
+			height: 45px;
+			float: left;
+		}
+	}
+
+	.poster {
+		.poster-container {
+			display: block;
+		}
+
+		.tampil-poster {
+			width: 100%;
+			box-shadow: none;
+			margin-bottom: 10px;
+		}
+	}
+
+	.daftar-posyandu {
+		margin-top: -16px;
+
+		.btn-konfirmasi {
+			background-color: #ff8b1e;
+			color: #fff;
+			width: 50%;
+			border-radius: 0;
+
+			&:hover {
+				background-color: #e66f00;
+				color: #fff;
+			}
+		}
+
+		.btn-daftar-posyandu {
+			margin-left: -5px;
+			width: 50%;
+			border-radius: 0;
+		}
+	}
+}
+
+.section-berita-content {
+	margin-top: -210px;
+	min-height: 100vh;
+
+	h3 {
+		font-family: "Poppins", sans-serif;
+		font-weight: 600;
+	}
+
+	.keterangan-artikel {
+		font-size: 15px;
+		color: rgb(151, 151, 151);
+		font-weight: bold;
+		span {
+			color: #e66f00;
+		}
+	}
+
+	.artikel-terbaru {
+		margin-bottom: 25px;
+		font-size: 19px;
+		font-weight: 600;
+		border-bottom: 2px solid #f78113;
+	}
+
+	hr {
+		margin-top: 5px;
+		border-top: 5px solid #f78113;
+	}
+
+	.indikator {
+		padding-left: 30px;
+
+		.breadcrumb {
+			background-color: transparent;
+			padding: 0;
+			margin-bottom: 30px;
+
+			a {
+				color: #6e6e6e;
+				font-weight: bold;
+				text-decoration: none;
+			}
+		}
+
+		.breadcrumb-item {
+			&.active {
+				font-weight: bold;
+				color: #006811;
+			}
+		}
+	}
+
+	.carousel-berita {
+		margin-bottom: 10px;
+
+		.carousel-item {
+			img {
+				width: 100%;
+				height: 29rem;
+				object-fit: cover;
+				object-position: center;
+			}
+		}
+
+		.carousel-berita-caption {
+			left: 0;
+			right: 0;
+			bottom: 0;
+			background-image: linear-gradient(
+				to top,
+				rgb(0, 0, 0),
+				rgba(255, 0, 0, 0)
+			);
+		}
+	}
+
+	.artikel-content {
+		margin-bottom: 65px;
+		.cover-artikel {
+			width: 100%;
+			height: 29rem;
+			object-fit: cover;
+			object-position: center;
+			margin-bottom: 30px;
+		}
+
+		.isi-artikel {
+			font-family: "Assistant", sans-serif;
+		}
+	}
+
+	.card-berita-kecil {
+		margin-bottom: 15px;
+
+		a {
+			text-decoration: none;
+			color: #000;
+
+			img {
+				width: 15rem;
+				height: 8rem;
+				object-fit: cover;
+				object-position: center;
+			}
+
+			p {
+				margin-top: 7px;
+				font-size: 11px;
+				span {
+					color: #e66f00;
+					font-weight: bold;
+				}
+			}
+
+			h5 {
+				margin-top: -5px;
+				font-family: "Assistant", sans-serif;
+				font-weight: 700;
+				font-size: 17px;
+			}
+		}
+	}
+
+	.berita-bawah {
+		a {
+			color: #000;
+			text-decoration: none;
+
+			.card-berita-item {
+				img {
+					min-height: 17rem;
+					object-fit: cover;
+					object-position: center;
+				}
+
+				h5 {
+					font-family: "Assistant", sans-serif;
+					font-weight: 700;
+					font-size: 20px;
+				}
+
+				p {
+					font-size: 13px;
+
+					span {
+						color: #e66f00;
+						font-weight: bold;
+					}
+				}
+
+				.isi-berita {
+					display: -webkit-box;
+					overflow: hidden;
+					text-overflow: ellipsis;
+					-webkit-line-clamp: 4;
+					-webkit-box-orient: vertical;
+				}
+			}
+		}
+	}
+}
+
+.section-checkout {
+	img {
+		height: 250px;
+		width: 250px;
+	}
+
+	h1 {
+		font-weight: 600;
+		font-size: 26px;
+		color: #007b5e;
+	}
+
+	p {
+		font-weight: 300;
+		font-size: 18px;
+		color: #33834b;
+	}
+
+	.card-checkout {
+		padding: 30px;
+		border-radius: 11px;
+
+		h3 {
+			font-size: 20px;
+			font-weight: 600;
+			color: #007b5e;
+		}
+
+		.checkout-transfer {
+			td {
+				font-family: "Assistant", sans-serif;
+				color: #007b5e;
+				font-weight: 500;
+				font-size: 18px;
+			}
+
+			.text-right {
+				font-family: "Assistant", sans-serif;
+				color: #9b9b9b;
+				font-size: 18px;
+			}
+
+			.text-pemesan {
+				color: #000ba8 !important;
+				font-weight: bold;
+			}
+
+			.text-tagihan {
+				color: #f78113 !important;
+				font-weight: bold;
+			}
+		}
+	}
+
+	.konfirmasi-pembayaran {
+		margin-top: -15px;
+
+		.btn-konfirmasi {
+			background-color: #007b5e;
+			font-weight: 600;
+			color: #fff;
+			border-radius: 0;
+
+			&:hover {
+				background-color: #01644d;
+				color: #fff;
+			}
+		}
+	}
+
+	.btn-air-page {
+		font-weight: 600;
+		border-radius: 4px;
+		background-color: #f78113;
+		color: #fff;
+
+		&:hover {
+			background-color: #e66f00;
+			color: #fff;
+		}
+	}
+}
+
+.section-artikel {
+	margin-top: 25px;
+
+	h3 {
+		color: #f78113;
+		font-family: "Poppins", sans-serif;
+		border-bottom: 4px solid #007b5e;
+	}
+
+	.berita-bawah {
+		a {
+			color: #000;
+			text-decoration: none;
+
+			.card-berita-item {
+				img {
+					min-height: 17rem;
+					object-fit: cover;
+					object-position: center;
+				}
+
+				h5 {
+					font-family: "Assistant", sans-serif;
+					font-weight: 700;
+					font-size: 20px;
+				}
+
+				p {
+					font-size: 13px;
+
+					span {
+						color: #e66f00;
+						font-weight: bold;
+					}
+				}
+
+				.isi-berita {
+					display: -webkit-box;
+					overflow: hidden;
+					text-overflow: ellipsis;
+					-webkit-line-clamp: 4;
+					-webkit-box-orient: vertical;
+				}
+			}
+		}
+	}
+}

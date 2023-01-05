@@ -1,0 +1,12 @@
+desaklampok
+Tfj182cb19
+
+https://desaklampok.000webhostapp.com/
+
+db
+localhost
+id17828385_admin
+@Kknklampok2021
+id17828385_db_klampok
+mysqli
+
